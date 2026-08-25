@@ -1,0 +1,87 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+body{
+    background-color: #FEFAE0;
+}
+
+@font-face {
+    font-family: 'Heavi';
+    src: url('fonts/Heavitas.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('fonts/Nexa-Heavy.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'ayuga';
+    src: url('fonts/AyugaDEMO.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'inter-black';
+    src: url('fonts/InterBlack900.otf') format(truetype);
+}
+
+.none-dis{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.none-dis a{
+    text-decoration: none;
+    color: black;
+    font-family: nexa;
+}
+
+.font-name{
+    font-family: Heavi;
+    letter-spacing: 2px;
+}
+.font-name2{
+    padding-left: 27%;
+    text-align: left;
+    font-family: ayuga;
+    font-size: 80px;
+    line-height: 70px;
+    color: #7A1717;
+    margin-bottom: -15px;
+}
+
+.font-name3{
+    font-family: inter-black;
+    color: #FB8500;
+    padding-left: 27%;
+    margin-bottom: 30px;
+}
+
+.deskripsi{
+    font-family: Cambria;
+    font-size: 95%;
+    padding-left: 27%;
+}
+
+.section-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4%;
+    gap: 25%;
+    }
+
+.btn{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 40px;
+    background-color: #FFB703;
+    border-radius: 50px;
+    font-size: 25px;
+    border: none;
+    color: black;
+}
