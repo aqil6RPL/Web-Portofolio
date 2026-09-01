@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -80,15 +85,88 @@ body{
     align-items: center;
     position: relative;
     left: 27%;
-    gap: 20%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 35%;
+    bottom: -20px;
+    gap: 100px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 10%;
     padding-left: 40px;
     background-color: #FFB703;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     font-family: inter-black;
     color: black;
+}
+
+.btn:hover{
+    background-color: #ffb8035e;
+}
+
+.sepasih{
+    margin-top: 3%;
+}
+
+.explaining{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: inter-black;
+    font-size: 70%;
+    padding: 2%;
+    gap: 3%;
+
+    p{
+        text-align: justify;
+        font-family: cambria;
+        font-size: 15px;
+        font-weight: 505;
+    }
+}
+
+.bts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0F1314;
+}
+
+.project{
+    padding-top: 1.5%;
+    text-align: center;
+    color: white;
+    font-family: inter-black;
+}
+
+.bts2{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    color: white;
+    
+    p{
+        padding-bottom: 10%;
+    }
+}
+
+.bts3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project2{
+    padding-top: 1.5%;
+    text-align: center;
+    color: #0F1314;
+    font-family: inter-black;
+}
+
+.sekolah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
